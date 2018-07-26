@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bdc6cbce-98a1-4465-acc3-697782b90df4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58038/WCFSharia.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFSharia.wsdl" MetadataType="Wsdl" ID="eae19004-2cff-4d4e-94b2-61b7c57f5030" SourceId="1" SourceUrl="http://localhost:58038/WCFSharia.svc?wsdl" />
+    <MetadataFile FileName="WCFSharia.disco" MetadataType="Disco" ID="dff976dc-8cff-4008-a025-f0f34c4b8431" SourceId="1" SourceUrl="http://localhost:58038/WCFSharia.svc?disco" />
+    <MetadataFile FileName="WCFSharia.xsd" MetadataType="Schema" ID="763e1677-28a4-4308-a45f-f2b52da57dc5" SourceId="1" SourceUrl="http://localhost:58038/WCFSharia.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFSharia1.xsd" MetadataType="Schema" ID="cda45eb2-0d8d-47b2-8975-412a056aea19" SourceId="1" SourceUrl="http://localhost:58038/WCFSharia.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFSharia2.xsd" MetadataType="Schema" ID="887a9690-6900-4723-b368-9eb8da72db3b" SourceId="1" SourceUrl="http://localhost:58038/WCFSharia.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

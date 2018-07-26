@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfServiceSC" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfServiceSC" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Daftarmember">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gaji" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Jk" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nama" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoHP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Work" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Daftarmember" nillable="true" type="tns:Daftarmember" />
+  <xs:complexType name="PinjamDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Angsuran" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gajii" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDmem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Idpinjam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Jangka" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Jumlah" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Namapinjam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PinjamDetails" nillable="true" type="tns:PinjamDetails" />
+</xs:schema>
